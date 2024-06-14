@@ -1,0 +1,68 @@
+@import "../../common/colors.scss";
+
+.header{
+    background-color: #00000070;
+    height:72px;
+    padding:0px 40px;
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+
+.Link:hover{
+ color: #e64910;
+
+}
+
+
+
+.logo a{
+    color:#ffffffea;
+    font-size:20px;
+    font-weight: 600;
+
+}
+
+.user-image,.user-image img{
+    color: #ffff;
+    height:38px;
+    
+
+}
+.user-actions a{
+   color: #ffffff;
+}
+@media screen and (max-width: 600px) {
+    .user-image{
+        display: none;
+    }
+}
+
+.search-bar{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+
+
+    form{
+        display: flex;
+        justify-content: center;
+        width: 70%;
+    }
+    button{
+        padding: 0px 8px;
+        font-size: 20px;
+        cursor:pointer;
+        height: 38px;
+    }
+    input{
+        font-size: 18px;
+        width: 100%;
+        padding: 5px 5px 5px 10px;
+        height: 38px;
+        outline: none;
+        
+    }
+}
